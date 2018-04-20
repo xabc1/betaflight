@@ -195,9 +195,9 @@
 #define UART1_TX_PIN            PA9
 #define UART1_AHB1_PERIPHERALS  RCC_AHB1Periph_DMA2
 
-#define USE_UART3
-#define UART3_RX_PIN            PB11
-#define UART3_TX_PIN            PB10
+//#define USE_UART3
+//#define UART3_RX_PIN            PB11
+//#define UART3_TX_PIN            PB10
 
 #if defined(REVO)
 #define USE_UART4
@@ -247,6 +247,9 @@
 #define I2C_DEVICE              (I2CDEV_1)
 #define I2C1_SCL                PB8
 #define I2C1_SDA                PB9
+#define USE_I2C_DEVICE_2
+#define I2C2_SCL                PB10
+#define I2C2_SDA                PB11
 #endif
 
 #define USE_ADC
